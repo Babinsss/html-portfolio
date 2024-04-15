@@ -5,89 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #e472ad;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            line-height: 1.6;
+            margin: 0;
+        }
+
         /* Navigation Styles */
         nav {
-            background-color: #333333;
+            background-color: #3c3c3c;
             overflow: hidden;
+            padding: 10px 0;
+            text-align: center;
         }
 
         nav a {
-            float: left;
-            display: block;
+            display: inline-block;
             color: white;
-            text-align: center;
-            padding: 14px 16px;
             text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
         }
 
         nav a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #555;
         }
 
         /* Table Styles */
         table {
             border-collapse: collapse;
             width: 100%;
+            margin-top: 20px;
         }
 
         th, td {
-            border: 1px solid #070a07;
+            border: 1px solid #fff;
             text-align: left;
-            padding: 8px;
+            padding: 10px;
         }
 
         tr:nth-child(even) {
-            background-color: #93ed72;
+            background-color: #3c3c3c;
         }
 
         tr:hover {
-            background-color: #dddddd;
+            background-color: #555;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #3c3c3c;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
         }
     </style>
 </head>
 <body>
 <header>
-    <nav>
-        <a href="index.html" draggable="true">Home</a>
-        <a href="exercises.html" draggable="true">Exercises</a>
-        <a href="exercises\10-designs\exercise-10-designs.html" draggable="true">Design</a>
-        <a href="https://www.facebook.com/Binsskieeee" draggable="true">Facebook</a>
-        <a href="my-skills.html" draggable="true">My Skills</a>
-    </nav>
-    <hr>
     <h1>My Skills</h1>
-    <table>
-        <tr>
-            <td>Web Development &nbsp;</td>
-            <td>⭐⭐⭐</td>
-            <td>Graphic Design</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Object Oriented Programming</td>
-            <td>⭐⭐</td>
-            <td>MySQL</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>SEO</td>
-            <td>⭐</td>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐⭐</td>
-            <td>JavaScript</td>
-            <td>⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>⭐⭐⭐⭐⭐</td>
-            <td>PHP</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-    </table>
+</header>
+<nav>
+    <a href="index.html" draggable="true">Home</a>
+    <a href="exercises.html" draggable="true">Exercises</a>
+    <a href="exercises\10-designs\exercise-10-designs.html" draggable="true">Design</a>
+    <a href="https://www.facebook.com/Binsskieeee" draggable="true">Facebook</a>
+    <a href="my-skills.html" draggable="true">My Skills</a>
+</nav>
+<hr>
+<table>
+    <tr>
+        <td>Web Development</td>
+        <td>⭐⭐⭐</td>
+        <td>Graphic Design</td>
+        <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+        <td>Object Oriented Programming</td>
+        <td>⭐⭐</td>
+        <td>MySQL</td>
+        <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+        <td>SEO</td>
+        <td>⭐</td>
+        <td>HTML</td>
+        <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>⭐⭐⭐⭐</td>
+        <td>JavaScript</td>
+        <td>⭐⭐</td>
+    </tr>
+    <tr>
+        <td>Python</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>PHP</td>
+        <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+</table>
 </body>
 </html>
